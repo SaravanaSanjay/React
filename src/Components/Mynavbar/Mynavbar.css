@@ -1,0 +1,24 @@
+
+.logo{
+    color: var(--gray-900, #111827);
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;    
+}
+.content{
+    color: var(--gray-600, #4B5563);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    text-decoration: none;
+}
+
+.navbarlay{
+    padding: 0px 32px;
+}   

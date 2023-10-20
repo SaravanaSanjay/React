@@ -1,0 +1,62 @@
+#aboutmetext{
+    display: flex;
+    padding: 96px 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 10px;
+}
+.aboutmeh1{
+    color: var(--gray-900, #111827);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    margin-bottom: 15px;
+}
+.bg1{
+    height: 525px;
+    width: 440px;
+}
+.cv1{
+    width: 400px;
+    height: 480px;
+
+}
+
+
+@media screen and (max-width:768px) 
+{
+    .bg1 {
+        height: 525px;
+        width: 440px;
+    }
+    
+}
+
+@media screen and (max-width:426px){
+    .cv1{
+        width: 310px;
+    }
+    .bg1 {
+        height: 520px;
+        width: 345px;
+    }
+}
+@media screen and (max-width: 376px)
+{
+    .aboutmeh1{
+        font-size:large;
+    }
+    .cv1{
+        width: 220px;
+        height: 330px;
+    }
+    .bg1{
+        width: 250px;
+        height: 360px;
+    }
+}
+
+  

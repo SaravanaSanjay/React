@@ -1,0 +1,50 @@
+.Hcontent0{
+    color: var(--gray-900, #111827);
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+    margin-bottom: 10px;
+}
+.cv{
+    width: 335px;
+    height: 335px;
+}
+.bg{
+    width: 370px;
+    height: 365px;
+}
+ul{
+    margin-right: 20px;
+}
+.textClass{
+    color: white;
+}
+.dark-mode {
+    color: #fff;
+    background-color:black ;
+  }
+  
+  
+  .light-mode {
+    background-color: #fff; 
+    color:black;
+  }
+
+@media screen and (max-width: 426px)
+{
+    .Hcontent0{
+        font-size:xx-large;
+    }
+    .cv{
+        width: 185px;
+        height: 200px;
+    }
+    .bg{
+        width: 210px;
+        height: 220px;
+    }
+    
+}

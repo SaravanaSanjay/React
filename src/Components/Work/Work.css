@@ -1,0 +1,66 @@
+.fotolay{
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.work1{
+    height: 384px;
+    width: 620px;
+}
+.grid{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px;
+}
+.grid div{
+    color: var(--gray-600, #4B5563);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--gray-200, #E5E7EB);  
+}
+
+
+@media screen and (max-width: 769px)
+{
+    .work1{
+        height:195px;
+        width: 303px;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    .grid{
+        grid-template-columns:1fr;
+    }
+    
+}
+@media screen and (max-width: 376px)
+{
+    .work1{
+        height:155px;
+        width: 260px;
+    }
+    
+}
+@media screen and (max-width: 320px)
+{
+    .work1{
+        height:145px ;
+        width: 195px;
+    }
+    
+}
+  

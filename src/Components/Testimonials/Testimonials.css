@@ -1,0 +1,10 @@
+.testlayout{
+    display: flex;
+    min-width: 300px;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    }
