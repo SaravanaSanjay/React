@@ -50,7 +50,7 @@ function Work (props){
             </div>
             <div className='row shadow rounded mt-5'>
                 <div className='col'>
-                    <span className='btext'>Landing Page</span>
+                    <span className='btext'>React Landing Page</span>
                     <div className='col mt-3 ptext'>
                         A website landing page is a critical component of any online presence, often serving as the virtual storefront of a business or entity. This initial webpage is specifically designed to capture a visitor's attention and direct them toward a particular action, such as making a purchase, signing up for a newsletter, or filling out a contact form.
                     </div>
