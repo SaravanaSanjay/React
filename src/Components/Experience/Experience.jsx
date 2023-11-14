@@ -11,7 +11,7 @@ const Experience = (props) => {
     setShowContent(!showContent);
   };
   return (
-    <Container id='layout' className={darkModeClass}>
+    <Container id='layout' >
       <span onClick={toggleContent} style={{ cursor: 'pointer' }}><div class="center-button">Projects</div></span>
         <div className='row'>
           <span className='center-text'>Here is a quick summary of my most recent Projects:</span>

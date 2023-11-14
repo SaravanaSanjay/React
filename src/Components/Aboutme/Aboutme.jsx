@@ -6,7 +6,6 @@ import Background from '../../Img/Background.png'
 import cv_pic1 from '../../Img/cv_pic1.PNG'
 import { useState } from 'react';
 function Aboutme(props) {
-    const darkModeClass = props.ModeOn ? 'dark-mode' : 'light-mode';
     const [showContent, setShowContent] = useState(true);
   
     const toggleContent = () => {
@@ -14,7 +13,7 @@ function Aboutme(props) {
       
     };
   return (
-    <Container id='layout' className={darkModeClass}>
+    <Container id='layout'>
       <span id='about' onClick={toggleContent} style={{ cursor: 'pointer' }}>
         <div class="center-button">About Me</div>
         </span>

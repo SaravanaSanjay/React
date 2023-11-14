@@ -18,7 +18,7 @@ function Footer(props) {
   };
   return (
     <div id="contact">
-    <Container id='layout' className={darkModeClass}>
+    <Container id='layout' >
       <div className='footerlayout'>
         <span onClick={toggleContent} style={{ cursor: 'pointer' }}><div class="center-button ">Get in touch</div></span>
         <div className='row'>

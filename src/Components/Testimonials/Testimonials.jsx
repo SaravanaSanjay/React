@@ -3,15 +3,14 @@ import { Container } from 'react-bootstrap'
 import peopleicone from '../../Img/peopleicone.png'
 import './Testimonials.css'
 import { useState } from 'react'
-function Testimonials (props){
-    const darkModeClass = props.ModeOn ? 'dark-mode' : 'light-mode';
+function Testimonials (){
     const [showContent, setShowContent] = useState(true);
 
     const toggleContent = () => {
     setShowContent(!showContent);
   };
   return (
-    <Container id='layout' className={darkModeClass}>
+    <Container id='layout'>
         <span id='test' onClick={toggleContent} style={{ cursor: 'pointer' }}>
             <div class="row center-button ">Testimonials</div>
         </span>

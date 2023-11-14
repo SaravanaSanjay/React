@@ -10,16 +10,14 @@ import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 
-function Header(props) {
-  const darkModeClass = props.ModeOn ? 'dark-mode' : 'light-mode';
-  const textClass = props.ModeOn ? 'dark-text' : 'light-text';
+function Header() {
 
   return (
-    <Container id='layout' className={darkModeClass}>
-    <div className='row' bg={darkModeClass ? "dark-mode" : "light-mode"} data-bs-theme={darkModeClass ? "dark-mode" : "light-mode"} expand='lg'>
+    <Container id='layout'>
+    <div className='row' expand='lg'>
         <div className="col">
-          <div className={`Hcontent0 ${textClass}`}>Hi, I’m Saravana Sanjay 👋</div>
-          <div className={`${darkModeClass ? 'textClass ptext':'ptext'}`}>
+          <div className='Hcontent0'>Hi, I’m Saravana Sanjay 👋</div>
+          <div className='ptext'>
             I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications, I still love it as if it was something new.
           </div>
           <div className="row" id="headtext1">

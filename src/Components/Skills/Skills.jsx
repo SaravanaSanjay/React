@@ -15,7 +15,6 @@ import Tech10 from '../../Img/Tech10.png'
 import Tech11 from '../../Img/Tech11.jpg'
 import { useState } from 'react'
 function Skills (props){
-    const darkModeClass = props.ModeOn ? 'dark-mode' : 'light-mode';
     const [showContent, setShowContent] = useState(true);
 
     const toggleContent = () => {
@@ -23,7 +22,7 @@ function Skills (props){
     
   };
   return (
-  <Container id='layout' className={darkModeClass}>
+  <Container id='layout'>
     <span onClick={toggleContent} style={{ cursor: 'pointer' }}>
         <div class="row center-button ">Skills</div>
     </span>

@@ -7,15 +7,14 @@ import Work4 from '../../Img/Work4.PNG'
 import './Work.css'
 import { useState } from 'react'
 import { BsBoxArrowUpRight } from "react-icons/bs";
-function Work (props){
-    const darkModeClass = props.ModeOn ? 'dark-mode' : 'light-mode';
+function Work (){
     const [showContent, setShowContent] = useState(true); 
 
   const toggleContent = () => {
     setShowContent(!showContent);
   };
   return (
-    <Container id='layout'className={darkModeClass}>
+    <Container id='layout'>
         <span id='work' onClick={toggleContent} style={{ cursor: 'pointer' }}>
             <div class="row center-button ">Work</div>
         </span>

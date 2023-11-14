@@ -37,27 +37,3 @@
   font-weight: 400;
   margin-bottom: 10px;
 }
-.btext{
-  color: black;
-  font-weight: bold;
-  font-family: Inter;
-  font-size: 20px;
-}
-.white-text{
-  color: white;
-  text-decoration: none;
-  /* background-color:black; */
-}
-/* .black-text{
-  color: black;
-}
-.dark-mode {
-  color: #fff;
-  background-color:black ;
-}
-
-
-.light-mode {
-  background-color: #fff; 
-  color:black;
-} */
