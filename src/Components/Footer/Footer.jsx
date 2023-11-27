@@ -45,7 +45,7 @@ function Footer(props) {
             <div class='col'><BsInstagram /></div>
           </div>
           <div className='row'>
-            <span className='ptext'><BsCCircle /> 2023 | Designed and coded with ❤️️ by Sagar Shah</span>
+            <span className='ptext'><BsCCircle /> 2023 | Designed and coded with ❤️️ by Saravana Sanjay</span>
           </div>
     </div>        
   </Container>
